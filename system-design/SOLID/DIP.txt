@@ -1,0 +1,24 @@
+5. Dependency Inversion Principle (DIP)
+
+Definition:
+High-level modules should not depend on low-level modules. Both should depend on abstractions.
+
+❌ Violation
+class MySQLDatabase {}
+
+class UserService {
+  constructor() {
+    this.db = new MySQLDatabase();
+  }
+}
+
+✅ Correct
+class Database {}
+
+class MySQLDatabase extends Database {}
+
+class UserService {
+  constructor(database) {
+    this.database = database;
+  }
+}

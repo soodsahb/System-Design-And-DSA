@@ -1,0 +1,24 @@
+3. Liskov Substitution Principle (LSP)
+
+Definition:
+Objects of a superclass should be replaceable with objects of its subclasses without altering the correctness of the program.
+
+❌ Violation
+class Bird {
+  fly() {}
+}
+
+class Ostrich extends Bird {
+  fly() {
+    throw new Error("Ostrich can't fly");
+  }
+}
+
+✅ Correct
+class Bird {}
+
+class FlyingBird extends Bird {
+  fly() {}
+}
+
+class Sparrow extends FlyingBird {}

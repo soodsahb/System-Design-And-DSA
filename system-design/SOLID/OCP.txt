@@ -1,0 +1,29 @@
+2. Open/Closed Principle (OCP)
+
+Definition:
+Software entities should be open for extension but closed for modification.
+
+❌ Violation
+function calculateDiscount(type) {
+  if (type === "student") return 20;
+  if (type === "senior") return 30;
+}
+
+✅ Correct
+class Discount {
+  getDiscount() {
+    throw new Error("Method not implemented");
+  }
+}
+
+class StudentDiscount extends Discount {
+  getDiscount() {
+    return 20;
+  }
+}
+
+class SeniorDiscount extends Discount {
+  getDiscount() {
+    return 30;
+  }
+}

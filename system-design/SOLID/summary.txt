@@ -1,0 +1,11 @@
+Summary (Optional for README)
+
+SRP: One class, one responsibility
+
+OCP: Extend behavior without modifying existing code
+
+LSP: Subclasses must be safely replaceable
+
+ISP: Prefer small, specific interfaces
+
+DIP: Depend on abstractions, not concrete implementations
