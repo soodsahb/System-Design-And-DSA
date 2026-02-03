@@ -13,8 +13,8 @@ function bubbleSort(arr) {
 
     return arr;
 }
-
-console.log(bubbleSort([23, 1, 34, 11, 10]));
+  
+console.log(bubbleSort([23, 1, 34, 11, 10])); 
 
 //Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order, gradually pushing the largest elements to the end of the array.
 
