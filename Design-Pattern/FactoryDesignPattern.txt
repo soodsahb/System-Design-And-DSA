@@ -1,0 +1,17 @@
+Factory Design Pattern
+What is Factory Design Pattern?
+
+The Factory Design Pattern is a creational design pattern that provides an interface for creating objects, but lets subclasses or a factory class decide which object to instantiate.
+
+In simple words:
+👉 Object creation logic is centralized, and the client does not need to know the exact class being created.
+
+Why use Factory Pattern?
+
+Hides object creation complexity
+
+Removes tight coupling between client and concrete classes
+
+Makes code scalable and maintainable
+
+Follows Single Responsibility Principle and Open/Closed Principle
