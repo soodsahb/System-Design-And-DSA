@@ -1,0 +1,30 @@
+Observer Pattern
+
+Definition
+Observer is a behavioral design pattern where one object (subject) maintains a list of dependents (observers) and notifies them automatically when its state changes.
+
+Intent
+- Build one-to-many dependency between objects.
+- Keep related components synchronized without tight coupling.
+
+Key Participants
+- Subject: Stores state and manages observer registration.
+- Observer: Defines update behavior.
+- Concrete Subject: Sends notifications when state changes.
+- Concrete Observer: Reacts to updates.
+
+When to Use
+- A change in one object should update multiple objects.
+- You need event-driven communication between components.
+
+Benefits
+- Decouples publishers from subscribers.
+- Supports dynamic subscription and unsubscription.
+- Useful for event systems and UI updates.
+
+Trade-offs
+- Notification chains can be hard to trace in large systems.
+- Poor lifecycle management can cause memory leaks.
+
+Real-World Example
+A news channel notifies all subscribers whenever a new article is published.

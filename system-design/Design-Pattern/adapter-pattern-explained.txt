@@ -1,0 +1,29 @@
+Adapter Pattern
+
+Definition
+Adapter is a structural design pattern that lets classes with incompatible interfaces work together by wrapping one interface with another.
+
+Intent
+- Convert the interface of an existing class into the interface the client expects.
+- Reuse existing or third-party code without modifying its source.
+
+Key Participants
+- Client: Uses the target interface.
+- Target: The interface expected by the client.
+- Adaptee: Existing class with an incompatible interface.
+- Adapter: Translates calls from Target to Adaptee.
+
+When to Use
+- A useful class exists, but its interface does not match your needs.
+- You want to integrate legacy systems with minimal changes.
+
+Benefits
+- Improves reuse of existing components.
+- Keeps client code stable while integrating different APIs.
+
+Trade-offs
+- Adds an extra layer and slight complexity.
+- Too many adapters can make architecture harder to trace.
+
+Real-World Example
+A travel plug adapter converts one plug type to another so a device can work in a different socket standard.

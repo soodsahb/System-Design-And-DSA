@@ -1,34 +1,29 @@
-What is Strategy Design Pattern?
+Strategy Pattern
 
-The Strategy Design Pattern is a behavioral design pattern that allows you to define a family of algorithms, encapsulate each one of them, and make them interchangeable.
+Definition
+Strategy is a behavioral design pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable at runtime.
 
-Instead of hard-coding behavior inside a class, the behavior is extracted into separate strategy classes. The context object delegates the work to a strategy object, making the algorithm easy to change at runtime.
+Intent
+- Separate varying behavior from the context that uses it.
+- Replace conditional-heavy logic with pluggable strategies.
 
-Why use Strategy Pattern?
+Key Participants
+- Strategy: Common interface for algorithms.
+- Concrete Strategies: Different algorithm implementations.
+- Context: Holds a strategy and delegates behavior to it.
 
-Eliminates large if-else or switch statements
+When to Use
+- Multiple ways exist to perform the same task.
+- Behavior should change dynamically based on runtime conditions.
 
-Follows Open/Closed Principle (open for extension, closed for modification)
+Benefits
+- Removes large if/else or switch blocks.
+- Encourages composition over inheritance.
+- Improves testability of individual algorithms.
 
-Improves code readability and maintainability
+Trade-offs
+- Increases number of classes.
+- Client or configuration must choose the correct strategy.
 
-Allows changing behavior without modifying the context class
-
-How it works (Conceptually)
-
-A Strategy Interface defines a common method for all algorithms
-
-Multiple Concrete Strategy classes implement this interface
-
-A Context class holds a reference to a strategy and delegates execution to it
-
-The strategy can be changed dynamically at runtime
-
-
-When to use Strategy Pattern?
-
-When you have multiple ways to perform a task
-
-When behavior needs to change dynamically
-
-When conditional logic is becoming complex and hard to manage
+Real-World Example
+A navigation app switching route calculation based on mode: fastest, shortest, or toll-free.

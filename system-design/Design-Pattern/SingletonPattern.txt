@@ -1,5 +1,26 @@
-Singleton Design Pattern, a creational pattern that ensures a class has only one instance and provides a global access point to it.
+Singleton Pattern
 
-This pattern is commonly used for shared resources such as configuration managers, logging services, and database connections, where a single instance is required across the application.
+Definition
+Singleton is a creational design pattern that ensures a class has exactly one instance and provides a global access point to that instance.
 
-A simple yet powerful concept that helps maintain controlled access, consistency, and resource efficiency in system design.
+Intent
+- Control access to a shared resource through one managed instance.
+
+Key Characteristics
+- Single instance throughout application lifecycle.
+- Centralized, global access point.
+- Usually includes lazy or eager initialization.
+
+When to Use
+- Exactly one shared object is required, such as app configuration, logger, or cache manager.
+
+Benefits
+- Prevents inconsistent state from multiple competing instances.
+- Reduces overhead for expensive shared resources.
+
+Trade-offs
+- Global state can make testing and debugging harder.
+- Can hide dependencies and increase coupling if overused.
+
+Real-World Example
+A central configuration manager loaded once and read by all modules.
