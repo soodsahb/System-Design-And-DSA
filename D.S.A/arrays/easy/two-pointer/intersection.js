@@ -29,3 +29,10 @@ function Intersection(arr1,arr2){
 
 
 console.log(Intersection([1,2,2,3,3,4,5,6],[2,3,3,5,6,6,7]))
+// Explanation:
+// - Use two pointers on sorted arrays.
+// - Compare current elements to find matches.
+// - On match, add once to avoid duplicates.
+// - Move pointers forward based on comparison.
+// - Return collected intersection array.
+

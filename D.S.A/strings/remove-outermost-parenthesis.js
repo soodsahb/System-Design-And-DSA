@@ -29,3 +29,10 @@ var removeOuterParentheses = function(s) {
 
     return ans;
 };
+// Explanation:
+// - Track nesting depth with `counter`.
+// - Skip adding opening bracket when depth is 0.
+// - Add inner opening brackets and increase depth.
+// - On closing bracket, decrease depth first.
+// - Add closing bracket only if still inside primitive.
+

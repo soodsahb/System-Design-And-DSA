@@ -13,3 +13,10 @@ function countDigits(n){
 }
 
 console.log(countDigits(7));
+// Explanation:
+// - Initialize count as 0.
+// - Repeat while number is greater than 0.
+// - Remove last digit in each step.
+// - Increment count for every digit removed.
+// - Return total digit count.
+

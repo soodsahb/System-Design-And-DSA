@@ -33,3 +33,10 @@ var isAnagram = function(s, t) {
 
     return true;
 };
+
+// Explanation:
+// - Check length first; different lengths can never be anagrams.
+// - Count each character of `s` in a hash map.
+// - Traverse `t` and decrement the matching character count.
+// - If a character in `t` is missing in the map, return false.
+// - After processing, every map value must be 0 for a valid anagram.

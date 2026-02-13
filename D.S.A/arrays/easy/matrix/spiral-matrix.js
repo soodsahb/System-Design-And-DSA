@@ -42,3 +42,10 @@ var spiralOrder = function(matrix) {
     }
     return result
 };
+// Explanation:
+// - Maintain four boundaries: top, bottom, left, right.
+// - Traverse top row left to right.
+// - Traverse right column top to bottom.
+// - Traverse bottom row and left column when valid.
+// - Shrink boundaries after each layer.
+

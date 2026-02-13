@@ -28,3 +28,10 @@ console.log(SelectionSort([23,1,34,11,10,-10]))
 // Time Complexity: O(n²)
 // Space Complexity: O(1)
 // Stability: Not stable
+// Explanation:
+// - Treat left side as sorted and right side as unsorted.
+// - Find minimum value in unsorted part.
+// - Swap minimum with current index.
+// - Move boundary one step right.
+// - Repeat until array is sorted.
+

@@ -45,3 +45,10 @@ var rearrangeArray = function(nums) {
     }
     return ans;
 };
+// Explanation:
+// - Keep separate write indices for positives and negatives.
+// - Positive numbers go to even positions.
+// - Negative numbers go to odd positions.
+// - Increase indices by 2 after placement.
+// - Return rearranged array with alternating signs.
+

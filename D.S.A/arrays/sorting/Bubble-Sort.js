@@ -28,3 +28,11 @@ console.log(bubbleSort([23, 1, 34, 11, 10]));
 
 // Space Complexity: O(1)
 
+
+// Explanation:
+// - Compare adjacent elements repeatedly.
+// - Swap whenever left element is greater.
+// - After each pass, largest unsorted value bubbles right.
+// - Reduce inner loop range on every pass.
+// - Return sorted array in ascending order.
+

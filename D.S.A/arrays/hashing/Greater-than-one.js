@@ -24,3 +24,11 @@ for(let [key,value] of initialResult){
 }
 
 console.log(result);
+
+// Explanation:
+// - First compute frequency map of all elements.
+// - Traverse each key-value pair in map.
+// - If frequency is greater than 1, collect key.
+// - Store duplicates in result array.
+// - Print final list of repeating elements.
+

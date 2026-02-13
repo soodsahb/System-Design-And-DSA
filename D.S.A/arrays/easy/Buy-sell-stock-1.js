@@ -12,3 +12,10 @@ var maxProfit = function(prices) {
     }
     return profit
 };
+// Explanation:
+// - Track minimum price seen so far.
+// - For each day, compute profit if sold today.
+// - Update maximum profit when larger profit appears.
+// - Keep updating minimum when lower price appears.
+// - Return best single-transaction profit.
+

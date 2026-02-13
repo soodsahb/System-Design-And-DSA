@@ -13,3 +13,10 @@ function RightRotateByOne(arr){
 }
 
 console.log(RightRotateByOne([1,2,3,4,5]))
+// Explanation:
+// - Save last element before shifting.
+// - Shift elements from right to left direction.
+// - Move each value one index ahead.
+// - Put saved last value at index 0.
+// - Return right-rotated array.
+

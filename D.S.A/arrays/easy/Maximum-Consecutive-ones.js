@@ -26,3 +26,10 @@ var findMaxConsecutiveOnes = function(nums) {
 
   
 };
+// Explanation:
+// - Count current streak of consecutive 1s.
+// - Increment streak when element is 1.
+// - On 0, update max streak and reset count.
+// - Perform one final max update after loop.
+// - Return longest streak found.
+

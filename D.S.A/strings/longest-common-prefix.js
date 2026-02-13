@@ -17,3 +17,10 @@ var longestCommonPrefix = function(strs) {
 
     return strs[0];
 };
+// Explanation:
+// - Use first string as reference.
+// - Compare each character position across all strings.
+// - Stop when mismatch or shorter string appears.
+// - Return substring up to last matched index.
+// - If all match, first string itself is prefix.
+

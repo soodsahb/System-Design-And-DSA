@@ -27,3 +27,10 @@ function armstrong(n){
 
 
 console.log(armstrong(371));    
+// Explanation:
+// - Store original number and count total digits.
+// - Extract each digit using modulo (`n % 10`).
+// - Add `digit^length` to running sum.
+// - Remove last digit using integer division.
+// - Compare computed sum with original number.
+

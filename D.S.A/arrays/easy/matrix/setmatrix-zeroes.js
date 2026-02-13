@@ -39,3 +39,10 @@ var setZeroes = function(matrix) {
 
 
 };
+// Explanation:
+// - Scan matrix and mark zero rows and zero columns.
+// - Store row marks in `zerorows`.
+// - Store column marks in `zerocols`.
+// - Zero out every marked row.
+// - Zero out every marked column.
+

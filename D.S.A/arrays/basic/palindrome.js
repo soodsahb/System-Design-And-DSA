@@ -16,3 +16,10 @@ function palindrome(n){
 
 
 console.log(palindrome(11));    
+// Explanation:
+// - Keep a copy of original number.
+// - Build reversed number digit by digit.
+// - Take last digit with modulo operation.
+// - Append digit to reverse using place shift.
+// - Final check: original must equal reversed.
+

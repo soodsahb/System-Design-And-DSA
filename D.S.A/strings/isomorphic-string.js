@@ -24,3 +24,11 @@ var isIsomorphic = function(s, t) {
     }
     return true;
 };
+
+// Explanation:
+// - If lengths differ, one-to-one mapping is impossible.
+// - Use one map for `s -> t` and another for `t -> s`.
+// - For each index, validate both existing mappings.
+// - If any mapping conflicts with current characters, return false.
+// - Store/update both directions to enforce bijection.
+// - If loop finishes without conflict, strings are isomorphic.

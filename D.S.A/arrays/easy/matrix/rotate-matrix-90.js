@@ -19,3 +19,10 @@ var rotate = function(matrix) {
 
 
 };
+// Explanation:
+// - First transpose matrix across main diagonal.
+// - Swap `matrix[i][j]` with `matrix[j][i]`.
+// - Then reverse every row.
+// - Transpose + row reverse gives 90 degree clockwise rotation.
+// - Operation is done in-place.
+

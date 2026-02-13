@@ -15,3 +15,10 @@ function CountDigits(arr){
 }
 
 console.log(CountDigits([1,1,1,2,3,4,5,5,5]));
+// Explanation:
+// - Initialize count as 0.
+// - Repeat while number is greater than 0.
+// - Remove last digit in each step.
+// - Increment count for every digit removed.
+// - Return total digit count.
+

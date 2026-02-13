@@ -16,3 +16,10 @@ function reverseNumber(n){
 
 
 console.log(reverseNumber(3244));    
+// Explanation:
+// - Start with reversed value as 0.
+// - Extract last digit from number.
+// - Shift reversed number and append digit.
+// - Drop processed digit from original number.
+// - Return fully reversed number.
+

@@ -17,3 +17,10 @@ function twoSum(arr,target){
 
 
 console.log(twoSum([2,8,7,10],9));
+// Explanation:
+// - Use map to store number and its index.
+// - For each number, compute required complement.
+// - If complement exists in map, return both indices.
+// - Otherwise store current number index.
+// - Achieves O(n) time complexity.
+

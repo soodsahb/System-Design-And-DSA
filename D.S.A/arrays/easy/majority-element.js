@@ -22,3 +22,10 @@ function majorityElement(arr){
 }
 
 console.log(majorityElement([7,7,5,7,5,1,5,7,5,5,7,7,5,5,5,7,7,7,7,7,7]))
+// Explanation:
+// - Use Moore Voting with `count` and candidate `ele`.
+// - When count is 0, pick current element as candidate.
+// - Same element increases count.
+// - Different element decreases count.
+// - Final candidate is the majority element.
+

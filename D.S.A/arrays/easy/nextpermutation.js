@@ -38,3 +38,10 @@ var nextPermutation = function(nums) {
         r--;
     }
 };
+// Explanation:
+// - Find first decreasing index from right (breakpoint).
+// - If no breakpoint, current order is largest; reverse all.
+// - Find just larger element on right and swap.
+// - Reverse suffix after breakpoint.
+// - Result is next lexicographically greater permutation.
+

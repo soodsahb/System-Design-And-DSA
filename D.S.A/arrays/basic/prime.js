@@ -16,3 +16,10 @@ function isPrime(n){
 
 
 console.log(isPrime(8));
+// Explanation:
+// - Handle small edge cases (`<=1`, `2`, even numbers).
+// - Test divisibility only by odd numbers.
+// - Iterate up to square root of `n`.
+// - If any divisor found, number is not prime.
+// - If loop ends, number is prime.
+

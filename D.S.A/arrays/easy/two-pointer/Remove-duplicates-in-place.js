@@ -14,3 +14,10 @@ function removeDuplicates(arr){
 }
 
 console.log(removeDuplicates([1,1,2,2,2,3,3]))
+// Explanation:
+// - Use pointer `i` for last unique element.
+// - Scan array with pointer `j` from index 1.
+// - If value differs, place it at `i+1`.
+// - Increase `i` when a new unique appears.
+// - Left part of array becomes unique set.
+

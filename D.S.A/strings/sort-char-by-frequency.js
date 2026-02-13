@@ -59,3 +59,10 @@ var frequencySort = function(s) {
 
 
 };
+// Explanation:
+// - Count frequency of each character in a map.
+// - Create buckets where index represents frequency.
+// - Place each character into its frequency bucket.
+// - Iterate buckets from high frequency to low.
+// - Append each character repeated by its frequency.
+

@@ -24,3 +24,10 @@ function arrrverse(l,r,arr){
 let arr=[1,2,3,4,5,6,7];
 RrotateByD(arr,3);
 console.log(arr);
+// Explanation:
+// - Compute effective rotation with `d = k % n`.
+// - Reverse whole array first.
+// - Reverse first `d` elements.
+// - Reverse remaining elements.
+// - Final array is right-rotated by `d`.
+

@@ -14,3 +14,10 @@ var rotateString = function(s, goal) {
 
 
 };
+// Explanation:
+// - Rotation is possible only when lengths are equal.
+// - Concatenate string with itself (`s + s`).
+// - Any valid rotation must appear as substring in doubled string.
+// - Check `includes(goal)` on doubled string.
+// - Return boolean result.
+

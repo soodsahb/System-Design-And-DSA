@@ -14,3 +14,10 @@ var missingNumber = function(nums) {
 
     return sum-actualsum;
 };
+// Explanation:
+// - Let `n` be array length.
+// - Compute expected sum of `0..n` using formula.
+// - Compute actual sum of elements.
+// - Difference gives missing value.
+// - Return expected minus actual sum.
+

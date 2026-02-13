@@ -13,3 +13,10 @@ for(let [key,value] of map){
         break;
     }
 }
+// Explanation:
+// - Build frequency map for all elements.
+// - Traverse map entries in insertion order.
+// - Find first key with frequency 1.
+// - Print and stop at first non-repeating element.
+// - Two-pass hashing gives linear complexity.
+

@@ -48,3 +48,10 @@ function partition(arr,low,high){
 let arr=[-1,33,2,22,44,12];
 quicksort(arr,0,arr.length-1);
 console.log(arr);
+// Explanation:
+// - Choose first element as pivot.
+// - Partition by placing smaller elements left and larger right.
+// - Put pivot into its final sorted position.
+// - Recursively quicksort left partition.
+// - Recursively quicksort right partition.
+

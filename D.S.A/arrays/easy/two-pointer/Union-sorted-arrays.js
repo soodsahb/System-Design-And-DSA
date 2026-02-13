@@ -47,3 +47,10 @@ console.log(Union([1,1,2,3,4,5],[2,3,4,4,5]));
 
 //t.c -> O(n1+n2)
 //s.c->O(n1+n2)
+// Explanation:
+// - Use two pointers to merge sorted arrays.
+// - Push smaller element first.
+// - Skip duplicates by checking last pushed value.
+// - Process remaining elements after one array ends.
+// - Return final union array.
+

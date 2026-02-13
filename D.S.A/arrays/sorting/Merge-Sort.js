@@ -48,3 +48,10 @@ let arr=[3,7,-1,9,0];
 
 mergeSort(arr,0,arr.length-1);
 console.log(arr);
+// Explanation:
+// - Divide array recursively into two halves.
+// - Continue until subarray size becomes 1.
+// - Merge two sorted halves using temporary array.
+// - Copy merged result back to original array.
+// - Produces fully sorted array in O(n log n).
+

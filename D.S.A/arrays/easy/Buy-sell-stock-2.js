@@ -20,3 +20,10 @@ var maxProfit = function(prices) {
 
      return profit;
 };
+// Explanation:
+// - Track current buying price (`min`).
+// - If today is cheaper, update buying price.
+// - If profitable, add gain and treat today as new buy.
+// - This captures all increasing segments.
+// - Return total profit from multiple trades.
+

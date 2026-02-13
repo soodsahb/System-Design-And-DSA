@@ -12,3 +12,10 @@ function LeftRotateByOne(arr){
 }
 
 console.log(LeftRotateByOne([1,2,3,4,5]));
+// Explanation:
+// - Save first element before shifting.
+// - Shift each element one step left.
+// - Place saved first element at last index.
+// - Rotation happens in-place.
+// - Return rotated array.
+

@@ -14,3 +14,10 @@ function checkSorted(arr){
 
 
 console.log(checkSorted([1,2,3,3,4]))
+// Explanation:
+// - Start from second element.
+// - Compare each value with previous value.
+// - If current is smaller, array is unsorted.
+// - Return false immediately on violation.
+// - If no violation, return true.
+

@@ -17,3 +17,10 @@ function sortzeroonestwos(arr){
         }
     }
 }
+// Explanation:
+// - Apply Dutch National Flag algorithm.
+// - `low` tracks boundary for 0s.
+// - `mid` scans current element.
+// - `high` tracks boundary for 2s.
+// - Swap/update pointers based on value 0, 1, or 2.
+

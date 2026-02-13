@@ -26,3 +26,11 @@ LrotateByD(arr,6);
 console.log(arr);
 
 
+
+// Explanation:
+// - Convert rotations to effective `d = k % n`.
+// - Reverse first `d` elements.
+// - Reverse remaining `n-d` elements.
+// - Reverse complete array to finish left rotation.
+// - Works in-place with O(1) extra space.
+

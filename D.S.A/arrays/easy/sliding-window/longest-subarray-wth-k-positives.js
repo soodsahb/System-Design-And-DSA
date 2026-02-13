@@ -24,3 +24,10 @@ function longestSubarray(arr,k){
 }
 
 console.log(longestSubarray([1,2,3,1,1,1,1,4,2,3],3))
+// Explanation:
+// - Use sliding window with pointers `i` and `j`.
+// - Expand window by adding `arr[j]` to sum.
+// - Shrink from left while sum exceeds `k`.
+// - When sum equals `k`, update maximum length.
+// - Continue until right pointer reaches end.
+

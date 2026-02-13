@@ -17,3 +17,10 @@ function Kadane(arr){
 }
 
 console.log(Kadane([-2,-3,4,-1,2,1,5,-3]))
+// Explanation:
+// - Maintain running sum of current subarray.
+// - Update maximum answer with current sum.
+// - If running sum becomes negative, reset to 0.
+// - This discards harmful prefixes.
+// - Final maximum is best subarray sum.
+
