@@ -22,5 +22,5 @@ function sortzeroonestwos(arr){
 // - `low` tracks boundary for 0s.
 // - `mid` scans current element.
 // - `high` tracks boundary for 2s.
-// - Swap/update pointers based on value 0, 1, or 2.
+// - Swap/update pointers based on value 0, 1, or 2. 
 
