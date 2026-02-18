@@ -52,3 +52,8 @@ var rearrangeArray = function(nums) {
 // - Increase indices by 2 after placement.
 // - Return rearranged array with alternating signs.
 
+
+// Complexity:
+// - Time: O(n) because each element is placed once in result positions.
+// - Space: O(n) because a new answer array is built.
+

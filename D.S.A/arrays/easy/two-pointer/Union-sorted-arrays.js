@@ -54,3 +54,8 @@ console.log(Union([1,1,2,3,4,5],[2,3,4,4,5]));
 // - Process remaining elements after one array ends.
 // - Return final union array.
 
+
+// Complexity:
+// - Time: O(n1 + n2) because both arrays are merged in one linear pass.
+// - Space: O(n1 + n2) in worst case for the union output.
+

@@ -55,3 +55,8 @@ console.log(arr);
 // - Recursively quicksort left partition.
 // - Recursively quicksort right partition.
 
+
+// Complexity:
+// - Time: Average O(n log n), worst O(n^2) because partitioning depends on pivot quality.
+// - Space: O(log n) average recursion stack, worst O(n) stack in skewed partitions.
+

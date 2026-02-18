@@ -27,3 +27,8 @@ var maxProfit = function(prices) {
 // - This captures all increasing segments.
 // - Return total profit from multiple trades.
 
+
+// Complexity:
+// - Time: O(n) because prices are scanned once and every rise is added.
+// - Space: O(1) because only a few tracking variables are used.
+

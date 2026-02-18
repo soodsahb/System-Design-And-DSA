@@ -43,3 +43,8 @@ var lengthOfLongestSubstring = function(s) {
 // - If duplicate appears inside current window, move `i` to `lastIndex + 1`.
 // - Update current window length as `j - i + 1`.
 // - Track and return the maximum window length without repeating characters.
+
+// Complexity:
+// - Time: O(n) because each character index is processed with map updates/lookups.
+// - Space: O(u) because map stores latest index of unique characters in window.
+

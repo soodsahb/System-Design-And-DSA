@@ -24,3 +24,8 @@ console.log(Kadane([-2,-3,4,-1,2,1,5,-3]))
 // - This discards harmful prefixes.
 // - Final maximum is best subarray sum.
 
+
+// Complexity:
+// - Time: O(n) because each element is processed once in one loop.
+// - Space: O(1) because only running sum and max are stored.
+

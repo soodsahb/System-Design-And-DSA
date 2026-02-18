@@ -44,3 +44,8 @@ var longestOnes = function(nums, k) {
 // - While shrinking, once we remove one zero from the left side, `zeroes` is reduced.
 // - After fixing the box, again compare length with `maxlen`.
 // - In the end, `maxlen` is the biggest valid window, so return it.
+
+// Complexity:
+// - Time: O(n) because left/right pointers each move through the array once.
+// - Space: O(1) because only counters and pointers are used.
+

@@ -36,3 +36,8 @@ console.log(bubbleSort([23, 1, 34, 11, 10]));
 // - Reduce inner loop range on every pass.
 // - Return sorted array in ascending order.
 
+
+// Complexity:
+// - Time: O(n^2) because nested loops compare adjacent pairs repeatedly.
+// - Space: O(1) because sorting is done in-place.
+

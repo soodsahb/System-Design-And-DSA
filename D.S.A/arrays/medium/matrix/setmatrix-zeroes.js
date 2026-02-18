@@ -46,3 +46,8 @@ var setZeroes = function(matrix) {
 // - Zero out every marked row.
 // - Zero out every marked column.
 
+
+// Complexity:
+// - Time: O(m*n) because we scan matrix and then zero marked rows/columns.
+// - Space: O(m+n) because two marker arrays store row and column flags.
+

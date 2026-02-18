@@ -21,3 +21,8 @@ var missingNumber = function(nums) {
 // - Difference gives missing value.
 // - Return expected minus actual sum.
 
+
+// Complexity:
+// - Time: O(n) because we compute actual sum in one traversal.
+// - Space: O(1) because only numeric variables are used.
+

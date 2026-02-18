@@ -19,3 +19,8 @@ var maxProfit = function(prices) {
 // - Keep updating minimum when lower price appears.
 // - Return best single-transaction profit.
 
+
+// Complexity:
+// - Time: O(n) because each price is visited once.
+// - Space: O(1) because only min price and max profit are stored.
+

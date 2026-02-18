@@ -23,3 +23,8 @@ console.log(reverseNumber(3244));
 // - Drop processed digit from original number.
 // - Return fully reversed number.
 
+
+// Complexity:
+// - Time: O(d) because each digit is extracted once.
+// - Space: O(1) because reverse is built using constant extra variables.
+

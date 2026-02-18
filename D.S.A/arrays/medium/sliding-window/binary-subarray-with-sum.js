@@ -41,3 +41,8 @@ var numSubarraysWithSum = function(nums, goal) {
 // - Expand with `r`; if `sum > k`, shrink from left by moving `l`.
 // - For each `r`, valid subarrays ending at `r` are `(r - l + 1)`, so add to `count`.
 // - Subtracting the two atMost counts gives subarrays with sum exactly equal to `goal`.
+
+// Complexity:
+// - Time: O(n) because each `atmost` run is linear and we run it twice (2n -> O(n)).
+// - Space: O(1) because sliding window uses only fixed variables.
+

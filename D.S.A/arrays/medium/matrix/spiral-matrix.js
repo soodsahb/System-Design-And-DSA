@@ -49,3 +49,8 @@ var spiralOrder = function(matrix) {
 // - Traverse bottom row and left column when valid.
 // - Shrink boundaries after each layer.
 
+
+// Complexity:
+// - Time: O(m*n) because each cell is added to result exactly once.
+// - Space: O(m*n) for result array storing traversal order.
+

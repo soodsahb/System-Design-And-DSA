@@ -43,3 +43,8 @@ var characterReplacement = function(s, k) {
 // - If replacements needed are more than `k`, move `l` right and decrease counts.
 // - After window becomes valid, update `maxlen` with current window size.
 // - Continue until `r` reaches end; `maxlen` is the longest valid substring.
+
+// Complexity:
+// - Time: O(n) because `r` moves forward once and `l` only moves forward when needed.
+// - Space: O(u) because map stores counts for unique characters in window.
+

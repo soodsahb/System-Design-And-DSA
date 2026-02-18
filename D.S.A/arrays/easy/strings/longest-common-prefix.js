@@ -24,3 +24,8 @@ var longestCommonPrefix = function(strs) {
 // - Return substring up to last matched index.
 // - If all match, first string itself is prefix.
 
+
+// Complexity:
+// - Time: O(n*m) in worst case (`n` strings, prefix length `m`) due character-by-character comparison across strings.
+// - Space: O(1) extra space (ignoring returned prefix).
+

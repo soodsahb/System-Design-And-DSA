@@ -24,3 +24,8 @@ console.log(twoSum([2,8,7,10],9));
 // - Otherwise store current number index.
 // - Achieves O(n) time complexity.
 
+
+// Complexity:
+// - Time: O(n) because each number is checked once with O(1) average map lookup.
+// - Space: O(n) because map may store all seen elements.
+

@@ -26,3 +26,8 @@ var rotate = function(matrix) {
 // - Transpose + row reverse gives 90 degree clockwise rotation.
 // - Operation is done in-place.
 
+
+// Complexity:
+// - Time: O(n^2) because transpose and row-reverse both touch matrix cells.
+// - Space: O(1) extra space because rotation is done in-place.
+

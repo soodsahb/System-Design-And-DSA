@@ -35,3 +35,8 @@ console.log(SelectionSort([23,1,34,11,10,-10]))
 // - Move boundary one step right.
 // - Repeat until array is sorted.
 
+
+// Complexity:
+// - Time: O(n^2) because each position scans remaining unsorted part for minimum.
+// - Space: O(1) because it swaps in-place without extra arrays.
+

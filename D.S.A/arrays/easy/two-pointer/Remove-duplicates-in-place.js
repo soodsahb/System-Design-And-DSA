@@ -21,3 +21,8 @@ console.log(removeDuplicates([1,1,2,2,2,3,3]))
 // - Increase `i` when a new unique appears.
 // - Left part of array becomes unique set.
 
+
+// Complexity:
+// - Time: O(n) because `j` scans array once while `i` tracks unique boundary.
+// - Space: O(1) because duplicates are removed in-place.
+

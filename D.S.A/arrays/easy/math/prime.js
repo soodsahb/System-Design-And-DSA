@@ -23,3 +23,8 @@ console.log(isPrime(8));
 // - If any divisor found, number is not prime.
 // - If loop ends, number is prime.
 
+
+// Complexity:
+// - Time: O(sqrt(n)) because divisors are checked only up to square root.
+// - Space: O(1) because only loop variables are used.
+

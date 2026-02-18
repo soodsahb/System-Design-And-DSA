@@ -31,3 +31,8 @@ console.log(arr);
 // - Reverse remaining elements.
 // - Final array is right-rotated by `d`.
 
+
+// Complexity:
+// - Time: O(n) because reverse operations together process each element constant times.
+// - Space: O(1) because rotation uses in-place swapping.
+

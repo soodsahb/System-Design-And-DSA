@@ -36,3 +36,8 @@ console.log(Intersection([1,2,2,3,3,4,5,6],[2,3,3,5,6,6,7]))
 // - Move pointers forward based on comparison.
 // - Return collected intersection array.
 
+
+// Complexity:
+// - Time: O(n1 + n2) because two pointers move forward across both arrays once.
+// - Space: O(min(n1,n2)) for the output intersection list.
+

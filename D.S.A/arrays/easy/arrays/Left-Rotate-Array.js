@@ -19,3 +19,8 @@ console.log(LeftRotateByOne([1,2,3,4,5]));
 // - Rotation happens in-place.
 // - Return rotated array.
 
+
+// Complexity:
+// - Time: O(n) because elements are shifted once across the array.
+// - Space: O(1) because rotation is done in-place with one temp variable.
+

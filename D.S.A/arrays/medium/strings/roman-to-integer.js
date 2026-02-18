@@ -36,3 +36,8 @@ var romanToInt = function(s) {
 // - Compare current symbol value with the next symbol value.
 // - If current is smaller, handle subtractive pair (like IV, IX) and skip next.
 // - Otherwise add current value directly to the result.
+
+// Complexity:
+// - Time: O(n) because we scan the Roman string once.
+// - Space: O(1) because symbol map size is fixed (7 Roman symbols).
+

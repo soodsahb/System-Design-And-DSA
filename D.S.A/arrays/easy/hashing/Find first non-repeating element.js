@@ -20,3 +20,8 @@ for(let [key,value] of map){
 // - Print and stop at first non-repeating element.
 // - Two-pass hashing gives linear complexity.
 
+
+// Complexity:
+// - Time: O(n) because we do one pass to count and one pass over entries, both linear.
+// - Space: O(u) because frequency map stores unique elements.
+

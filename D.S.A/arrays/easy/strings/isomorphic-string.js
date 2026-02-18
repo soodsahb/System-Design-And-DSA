@@ -32,3 +32,8 @@ var isIsomorphic = function(s, t) {
 // - If any mapping conflicts with current characters, return false.
 // - Store/update both directions to enforce bijection.
 // - If loop finishes without conflict, strings are isomorphic.
+
+// Complexity:
+// - Time: O(n) because each index is checked once in both direction maps.
+// - Space: O(u) because maps store character mappings.
+

@@ -45,3 +45,8 @@ var nextPermutation = function(nums) {
 // - Reverse suffix after breakpoint.
 // - Result is next lexicographically greater permutation.
 
+
+// Complexity:
+// - Time: O(n) because we do one backward scan, one swap search, and one suffix reversal.
+// - Space: O(1) because operations are in-place.
+

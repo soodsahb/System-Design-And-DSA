@@ -29,3 +29,8 @@ console.log(majorityElement([7,7,5,7,5,1,5,7,5,5,7,7,5,5,5,7,7,7,7,7,7]))
 // - Different element decreases count.
 // - Final candidate is the majority element.
 
+
+// Complexity:
+// - Time: O(n) because Moore Voting uses one pass through the array.
+// - Space: O(1) because only candidate and count are tracked.
+

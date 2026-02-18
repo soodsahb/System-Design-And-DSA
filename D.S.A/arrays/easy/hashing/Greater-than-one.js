@@ -32,3 +32,8 @@ console.log(result);
 // - Store duplicates in result array.
 // - Print final list of repeating elements.
 
+
+// Complexity:
+// - Time: O(n) because counting plus scanning map entries is linear overall.
+// - Space: O(u) because map and result store unique/repeating elements.
+

@@ -20,3 +20,8 @@ console.log(InsertionSort([33,11,4,2,1]))
 // - Stop when correct position is reached.
 // - Repeat for all indices.
 
+
+// Complexity:
+// - Time: O(n^2) in worst/average case because inner shifting can run for many elements each step.
+// - Space: O(1) because elements are rearranged in-place.
+

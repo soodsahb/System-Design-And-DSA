@@ -23,3 +23,8 @@ console.log(palindrome(11));
 // - Append digit to reverse using place shift.
 // - Final check: original must equal reversed.
 
+
+// Complexity:
+// - Time: O(d) because every digit is processed once to build reverse.
+// - Space: O(1) because only a few numeric variables are used.
+

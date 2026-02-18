@@ -20,3 +20,8 @@ console.log(countDigits(7));
 // - Increment count for every digit removed.
 // - Return total digit count.
 
+
+// Complexity:
+// - Time: O(n) because each array element is inserted/updated once in the map.
+// - Space: O(u) because map stores counts for `u` unique elements.
+

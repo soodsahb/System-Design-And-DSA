@@ -36,3 +36,8 @@ var removeOuterParentheses = function(s) {
 // - On closing bracket, decrease depth first.
 // - Add closing bracket only if still inside primitive.
 
+
+// Complexity:
+// - Time: O(n) because each parenthesis is visited once.
+// - Space: O(n) because output string may store almost all characters.
+

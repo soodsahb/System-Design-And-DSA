@@ -34,3 +34,8 @@ console.log(arr);
 // - Reverse complete array to finish left rotation.
 // - Works in-place with O(1) extra space.
 
+
+// Complexity:
+// - Time: O(n) because three reversals together touch each element constant times.
+// - Space: O(1) because all swaps are in-place.
+

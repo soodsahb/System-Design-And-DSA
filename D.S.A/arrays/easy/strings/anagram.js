@@ -40,3 +40,8 @@ var isAnagram = function(s, t) {
 // - Traverse `t` and decrement the matching character count.
 // - If a character in `t` is missing in the map, return false.
 // - After processing, every map value must be 0 for a valid anagram.
+
+// Complexity:
+// - Time: O(n) because one pass counts and one pass decrements characters.
+// - Space: O(u) because map stores counts of unique characters.
+

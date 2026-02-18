@@ -16,3 +16,8 @@ var reverseWords = function(s) {
 // - Reverse word order.
 // - Join words with single spaces.
 
+
+// Complexity:
+// - Time: O(n) because trim/split/filter/reverse/join together process the string linearly.
+// - Space: O(n) because intermediate arrays and final string are created.
+

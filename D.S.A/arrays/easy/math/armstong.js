@@ -34,3 +34,8 @@ console.log(armstrong(371));
 // - Remove last digit using integer division.
 // - Compare computed sum with original number.
 
+
+// Complexity:
+// - Time: O(d) because we process each digit once (`d` = number of digits).
+// - Space: O(1) because only fixed variables are used.
+

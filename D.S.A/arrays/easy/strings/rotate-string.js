@@ -21,3 +21,8 @@ var rotateString = function(s, goal) {
 // - Check `includes(goal)` on doubled string.
 // - Return boolean result.
 
+
+// Complexity:
+// - Time: O(n) average because include-check runs on a doubled string of length 2n.
+// - Space: O(n) because `s+s` creates a new string.
+

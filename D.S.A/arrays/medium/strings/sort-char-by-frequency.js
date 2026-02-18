@@ -66,3 +66,8 @@ var frequencySort = function(s) {
 // - Iterate buckets from high frequency to low.
 // - Append each character repeated by its frequency.
 
+
+// Complexity:
+// - Time: O(n + u) because we count chars and iterate buckets; `u` is unique chars.
+// - Space: O(n + u) because buckets and output string storage are used.
+

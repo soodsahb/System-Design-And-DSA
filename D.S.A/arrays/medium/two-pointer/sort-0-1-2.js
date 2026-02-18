@@ -24,3 +24,8 @@ function sortzeroonestwos(arr){
 // - `high` tracks boundary for 2s.
 // - Swap/update pointers based on value 0, 1, or 2. 
 
+
+// Complexity:
+// - Time: O(n) because Dutch National Flag scans array with one pass.
+// - Space: O(1) because sorting is done in-place with pointers.
+

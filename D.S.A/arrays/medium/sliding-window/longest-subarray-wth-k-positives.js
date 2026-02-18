@@ -31,3 +31,8 @@ console.log(longestSubarray([1,2,3,1,1,1,1,4,2,3],3))
 // - When sum equals `k`, update maximum length.
 // - Continue until right pointer reaches end.
 
+
+// Complexity:
+// - Time: O(n) because both pointers move forward at most n times in sliding window.
+// - Space: O(1) because only sum, pointers, and max length are stored.
+

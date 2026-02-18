@@ -20,3 +20,8 @@ console.log(RightRotateByOne([1,2,3,4,5]))
 // - Put saved last value at index 0.
 // - Return right-rotated array.
 
+
+// Complexity:
+// - Time: O(n) because elements are shifted once from right to left.
+// - Space: O(1) because only one extra variable stores the last element.
+

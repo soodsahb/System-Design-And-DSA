@@ -33,3 +33,8 @@ var findMaxConsecutiveOnes = function(nums) {
 // - Perform one final max update after loop.
 // - Return longest streak found.
 
+
+// Complexity:
+// - Time: O(n) because we traverse the array once.
+// - Space: O(1) because only counters are used.
+

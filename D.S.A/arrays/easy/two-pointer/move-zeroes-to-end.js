@@ -19,3 +19,8 @@ console.log(moveZeroestoEnd([0,0,2,0,2,4,0]))
 // - Increment `i` after placing non-zero.
 // - All zeros naturally move to the end.
 
+
+// Complexity:
+// - Time: O(n) because each index is visited once with at most one swap.
+// - Space: O(1) because rearrangement is in-place.
+

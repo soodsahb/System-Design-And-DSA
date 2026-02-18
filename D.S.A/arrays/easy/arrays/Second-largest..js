@@ -30,3 +30,8 @@ console.log(secondLargest([11,22,33,44,55,66]))
 // - Update max with current value.
 // - Return both max and secondMax.
 
+
+// Complexity:
+// - Time: O(n) because we find max and second max in a single pass.
+// - Space: O(1) because only two tracking variables are maintained.
+

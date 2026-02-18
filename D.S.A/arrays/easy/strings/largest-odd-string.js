@@ -20,3 +20,8 @@ var largestOddNumber = function(str) {
 // - Return substring from start to that index.
 // - If no odd digit found, return empty string.
 
+
+// Complexity:
+// - Time: O(n) because we scan from end until first odd digit.
+// - Space: O(1) extra space (ignoring output substring).
+

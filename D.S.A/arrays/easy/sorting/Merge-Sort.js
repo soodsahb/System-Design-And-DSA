@@ -55,3 +55,8 @@ console.log(arr);
 // - Copy merged result back to original array.
 // - Produces fully sorted array in O(n log n).
 
+
+// Complexity:
+// - Time: O(n log n) because array is recursively divided and merged at each level.
+// - Space: O(n) because temporary array is used during merge.
+
