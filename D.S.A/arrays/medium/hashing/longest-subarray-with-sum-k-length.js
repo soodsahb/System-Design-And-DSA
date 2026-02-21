@@ -25,7 +25,7 @@ function longestsubarray(nums,k){
 
 }
 
-console.log(longestsubarray([1,-1,0,1,1,1,1,4,2,3],4))
+console.log(longestsubarray([1,-1,0,1,1,1,1,4,2,3],4)) 
 
 // Explanation:
 // - Keep a running prefix sum while scanning the array.
