@@ -29,6 +29,11 @@ int main() {
   }
   acceptdata(p,rows,cols);
   displaydata(p,rows,cols);
+
+    for(int i = 0; i < rows; i++){
+        delete[] p[i];
+    }
+    delete[] p;
   
 
     return 0;
