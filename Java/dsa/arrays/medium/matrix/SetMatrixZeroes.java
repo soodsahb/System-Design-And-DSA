@@ -3,7 +3,7 @@ public class SetMatrixZeroes {
         int rows = matrix.length;
         int cols = matrix[0].length;
         boolean[] zeroRows = new boolean[rows];
-        boolean[] zeroCols = new boolean[cols];
+        boolean[] zeroCols = new boolean[cols]; 
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
@@ -25,7 +25,7 @@ public class SetMatrixZeroes {
         for (int j = 0; j < cols; j++) {
             if (zeroCols[j]) {
                 for (int i = 0; i < rows; i++) {
-                    matrix[i][j] = 0;
+                    matrix[j][i] = 0;
                 }
             }
         }
