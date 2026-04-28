@@ -34,6 +34,6 @@ public class SpiralMatrix {
             }
         }
 
-        return result;
+        return result; 
     }
 }
