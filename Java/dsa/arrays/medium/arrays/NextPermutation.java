@@ -33,7 +33,7 @@ public class NextPermutation {
             nums[l] = nums[r];
             nums[r] = temp;
             l++;
-            r--;
+            r--; 
         }
     }
 }
